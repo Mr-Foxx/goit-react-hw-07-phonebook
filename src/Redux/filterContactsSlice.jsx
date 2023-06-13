@@ -8,7 +8,7 @@ const filterContactsSlice = createSlice({
 
   reducers: {
     handleFindContact: (state, action) => {
-      console.log(action);
+      // console.log(action);
       state.filter = action.payload;
     },
   },
